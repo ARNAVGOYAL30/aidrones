@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arnav goyal">
+    <title>Machine learning</title>
+    <link rel="stylesheet" href="machine_learning.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- carousel code starts here -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+
+        <div class="carousel-inner" data-interval="2000">
+            <div class="carousel-item active" id="carousel-image">
+                <img src="picture/carousel-pic-1.jpg" class="d-block w-100 img-height"
+                    alt="artificial intelligence pic">
+            </div>
+            <div class="carousel-item">
+                <img src="picture/carousel-pic-2.jpg" class="d-block w-100 img-height" alt="machine learning pic">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--navbar code starts here -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #000C66;">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand text-light" id="logo-text" href="#">AIDRONES</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-white"><img class="rounded float-start" data-bs-toggle="tooltip"
+                        data-bs-placement="top" data-bs-title="Menu" src="picture/titlelogo.jpg" height="25px"
+                        width="25px" alt="menu-pic"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light font-weight-bold" aria-current="page"
+                            href="index.html">ARTIFICIAL
+                            INTELLIGENCE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light font-weight-bold" href="machine_learning.html">MACHINE
+                            LEARNING</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light font-weight-bold" href="drones.html">DRONES</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link text-light " href="robotics.html">ROBOTICS</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--content container code starts here-->
+    <div class="container" id="content-container">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="ml-heading">MACHINE LEARNING</h2>
+                <p class="ml-para">Machine learning is a branch of artificial intelligence (AI) and computer science
+                    which focuses on the use of data and algorithms to imitate the way that humans learn, gradually
+                    improving its accuracy.<br><br>
+
+                    Machine learning is an important component of the growing field of data science. Through the use of
+                    statistical methods, algorithms are trained to make classifications or predictions, uncovering key
+                    insights within data mining projects. These insights subsequently drive decision making within
+                    applications and businesses, ideally impacting key growth metrics.</p>
+
+                <h2 class="ml-heading">IMPORTANCE OF MACHINE LEARNING</h2>
+                <p class="ml-para">Machine learning is important because it gives enterprises a view of trends in
+                    customer behaviour and business operational patterns, as well as supports the development of new
+                    products. Many of today's leading companies, such as Facebook, Google and Uber, make machine
+                    learning a central part of their operations. Machine learning has become a significant competitive
+                    differentiator for many companies.</p><br><br>
+
+                <h2 class="ml-heading">WORKING IN MACHINE LEARNING</h2>
+                <p class="ml-para">The learning system of a machine learning algorithm into three main parts:</p>
+                <ul class="ul-types-ml">
+                    <li><strong>Decision Process:</strong> Machine learning algorithms are used to make a prediction or
+                        classification.
+                        Based on some input data, which can be labelled or unlabelled, your algorithm will produce an
+                        estimate about a pattern in the data.</li>
+                    <li><strong>Error Function:</strong> An Error Function serves to evaluate the prediction of the
+                        model. If there are known examples, an error function can make a comparison to assess the
+                        accuracy of the model.</li>
+                    <li><strong>Model Optimization Process:</strong> If the model can fit better to the data points in
+                        the training set, then weights are adjusted to reduce the discrepancy between the known example
+                        and the model estimate. The algorithm will repeat this evaluate and optimize process, updating
+                        weights autonomously until a threshold of accuracy has been met.</li>
+                </ul>
+
+                <h2 class="ml-heading">METHODS OF MACHINE LEARNING</h2>
+                <p class="ml-para">Machine learning classifies into three categories:</p>
+                <ul class="ul-types-ml">
+                    <li>Supervised machine learning</li>
+                    <li>Unsupervised machine learning</li>
+                    <li>Semi-supervised learning</li>
+                </ul>
+
+                <h2 class="heading-types">Supervised Machine Learning</h2>
+                <p class="ml-para">Supervised learning is also known as supervised machine learning. It is defined by
+                    its use of labelled datasets to train algorithms that to classify data or predict outcomes
+                    accurately. As input data is fed into the model, it adjusts its weights until the model has been
+                    fitted appropriately. This occurs as part of the cross validation process to ensure that the model
+                    avoids overfitting or underfitting.
+                    <br><br>
+                    Supervised learning helps organizations solve for a variety of real-world problems at scale, such as
+                    classifying spam in a separate folder from your inbox. Some methods used in supervised learning
+                    include neural networks, naïve bayes, linear regression, logistic regression, random forest, support
+                    vector machine (SVM) and more.<br><br>
+                </p>
+
+
+
+                <h2 class="system-classification-heading">Working Of Supervised Machine Learning</h2>
+                <p class="ml-para">Supervised machine learning requires the data scientist to train the algorithm with
+                    both labelled
+                    inputs and desired outputs. Supervised learning algorithms are good for the following tasks:
+                </p>
+                <ul class="ul-types-system-classification">
+                    <li><strong>Binary classification:</strong> Dividing data into two categories.</li>
+                    <li><strong>Multi-class classification:</strong> Choosing between more than two types of answers.
+                    </li>
+                    <li><strong>Regression modelling:</strong> Predicting continuous values.</li>
+                    <li><strong>Assembling:</strong> Combining the predictions of multiple machine learning models to
+                        produce an accurate prediction.</li>
+                </ul>
+
+                <h2 class="heading-types">Unsupervised Machine Learning</h2>
+                <p class="ml-para">Unsupervised learning, also known as unsupervised machine learning. It uses machine
+                    learning algorithms to analyse and cluster unlabelled datasets. These algorithms discover hidden
+                    patterns or data groupings without the need for human intervention. Its ability to discover
+                    similarities and differences in information make it the ideal solution for exploratory data
+                    analysis, cross-selling strategies, customer segmentation, image and pattern recognition. It’s also
+                    used to reduce the number of features in a model through the process of dimensionality reduction;
+                    principal component analysis (PCA) and singular value decomposition (SVD) are two common approaches
+                    for this. Other algorithms used in unsupervised learning include neural networks, k-means
+                    clustering, probabilistic clustering methods, and more.
+                </p><br>
+
+                <h2 class="heading-types">Working Of Unsupervised Machine Learning</h2>
+                <p class="ml-para">Unsupervised machine learning algorithms do not require data to be labelled. They
+                    sift through
+                    unlabelled data to look for patterns that can be used to group data points into subsets. Most types
+                    of deep learning, including neural networks, are unsupervised algorithms. Unsupervised learning
+                    algorithms are good for the following tasks:</p>
+                <ul class="ul-types-advantage">
+                    <li><strong>Clustering:</strong> Splitting the dataset into groups based on similarity.</li>
+                    <li><strong>Anomaly detection:</strong> Identifying unusual data points in a data set.</li>
+                    <li><strong>Association mining:</strong> Identifying sets of items in a data set that frequently
+                        occur together.</li>
+                    <li><strong>Dimensionality reduction:</strong> Reducing the number of variables in a data set.</li>
+                </ul>
+
+
+                <h2 class="heading-types">Semi-Supervised Learning</h2>
+                <p class="ml-para">Semi-supervised learning offers a medium between supervised and unsupervised
+                    learning. During training, it uses a smaller labelled data set to guide classification and feature
+                    extraction from a larger, unlabelled data set. Semi-supervised learning can solve the problem of
+                    having not enough labelled data to train a supervised learning algorithm.
+                </p><br>
+
+                <h2 class="heading-types">Working Of Semi-Supervised Learning</h2>
+                <p class="ml-para">Semi-supervised learning works by data scientists feeding a small amount of labelled
+                    training data to an algorithm. From this, the algorithm learns the dimensions of the data set, which
+                    it can then apply to new, unlabelled data. The performance of algorithms typically improves when
+                    they train on labelled data sets. But labelling data can be time consuming and expensive.
+                    Semi-supervised learning strikes a middle ground between the performance of supervised learning and
+                    the efficiency of unsupervised learning. Some areas where semi-supervised learning is used include:
+                </p>
+                <ul class="ul-types-advantage">
+                    <li><strong>Machine translation:</strong> Teaching algorithms to translate language based on less
+                        than a full
+                        dictionary of words.
+                    </li>
+                    <li><strong>Fraud detection:</strong> Identifying cases of fraud when you only have a few positive
+                        examples.</li>
+                    <li><strong>Labelling data:</strong> Algorithms trained on small data sets can learn to apply data
+                        labels to larger
+                        sets automatically.</li>
+                </ul>
+
+                <h2 class="heading-types">REINFORCEMENT MACHINE LEARNING</h2>
+                <p class="ml-para">Reinforcement machine learning is a behavioural machine learning model that is
+                    similar to supervised learning, but the algorithm isn’t trained using sample data. This model learns
+                    as it goes by using trial and error. A sequence of successful outcomes will be reinforced to develop
+                    the best recommendation or policy for a given problem. The system used reinforcement learning to
+                    decide whether to attempt an answer which square to select on the board, and how much to wager
+                    especially on daily doubles.
+                </p><br>
+
+                <h2 class="heading-types">Working Of Reinforcement Learning</h2>
+                <p class="ml-para">Reinforcement learning works by programming an algorithm with a distinct goal and a
+                    prescribed set of rules for accomplishing that goal. Data scientists also program the algorithm to
+                    seek positive rewards which it receives when it performs an action that is beneficial toward the
+                    ultimate goal and avoid punishments which it receives when it performs an action that gets it
+                    farther away from its ultimate goal. Reinforcement learning is often used in areas such as:
+                </p>
+                <ul class="ul-types-advantage">
+                    <li><strong>Robotics:</strong> Robots can learn to perform tasks the physical world using this
+                        technique.
+                    </li>
+                    <li><strong>Video gameplay:</strong> Reinforcement learning has been used to teach bots to play a
+                        number of video
+                        games.</li>
+                    <li><strong>Resource management:</strong> Given finite resources and a defined goal, reinforcement
+                        learning can help
+                        enterprises plan out how to allocate resources.</li>
+                </ul>
+
+                <h2 class="heading-types">Real World Machine Learning Uses</h2>
+                <ul class="ul-types-advantage">
+                    <li><strong>Speech Recognition:</strong> It is also known as automatic speech recognition (ASR) or
+                        speech-to-text. It
+                        has capability which uses natural language processing (NLP) to process human speech into a
+                        written format. Many mobile devices incorporate speech recognition into their systems to conduct
+                        voice search—e.g. Siri—or provide more accessibility around texting.
+                    </li>
+                    <li><strong>Customer Service:</strong> Online chatbots are replacing human agents along the customer
+                        journey. They
+                        answer frequently asked questions (FAQs) around topics, like shipping, or provide personalized
+                        advice, cross-selling products or suggesting sizes for users, changing the way we think about
+                        customer engagement across websites and social media platforms. Examples include messaging bots
+                        on e-commerce sites with virtual agents, messaging apps, such as Slack and Facebook Messenger,
+                        and tasks usually done by virtual assistants and voice assistants.</li>
+                    <li><strong>Computer Vision:</strong> This AI technology enables computers and systems to derive
+                        meaningful
+                        information from digital images, videos and other visual inputs, and based on those inputs, it
+                        can take action. This ability to provide recommendations distinguishes it from image recognition
+                        tasks. Powered by convolutional neural networks, computer vision has applications within photo
+                        tagging in social media, radiology imaging in healthcare, and self-driving cars within the
+                        automotive industry.</li>
+                    <li><strong>Recommendation Engines:</strong> Using past consumption behaviour data, AI algorithms
+                        can help to
+                        discover data trends that can be used to develop more effective cross-selling strategies. This
+                        is used to make relevant add-on recommendations to customers during the checkout process for
+                        online retailers.
+                    </li>
+                    <li><strong>Automated stock trading:</strong> Designed to optimize stock portfolios, AI-driven
+                        high-frequency trading
+                        platforms make thousands or even millions of trades per day without human intervention.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- footer code starts here -->
+        <footer>
+            <div class="footer-content">
+                <h3>AI Drones</h3>
+                <p>We are a group of students who are promoting and sharing our thoughts about drones and AI. We are
+                    happy to share our thoughts and knowledge.</p>
+                <ul class="socials">
+                    <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.gmail.com"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+                <div class="footer-menu">
+                    <ul class="f-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="drones.html">Drones</a></li>
+                        <li><a href="machine_learning.html">Machine Learning</a></li>
+                        <li><a href="robotics.html">Robotics</a></li>
+                        <li><a href="cookies_policy.html">Cookies Policy</a></li>
+                        <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                        <li><a href="terms_and_conditions.html">Terms Of Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Design By - <a href="#">Arnav</a> </p>
+
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
